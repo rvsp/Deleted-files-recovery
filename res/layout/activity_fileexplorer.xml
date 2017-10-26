@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bkg" >
+
+    <TextView
+        android:id="@+id/textview"
+        android:textColor="#ffffff"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Choose file to delete"
+        android:textSize="18dp" />
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="Selected File"
+            android:inputType="textPersonName" >
+        </EditText>
+
+        <Button
+            android:id="@+id/skipButton"
+            android:textColor="#0C50BE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="getfile"
+            android:text="Browse"
+            android:textSize="18dp" >
+        </Button>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:textColor="#0C50BE"
+            android:onClick="deleteFile"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+
+    </TableRow>
+
+</LinearLayout>

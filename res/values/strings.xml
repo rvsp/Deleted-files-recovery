@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Auto Backup</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_fileexplorer">FileexplorerActivity</string>
+    <string name="ParentMailId">jothicse89@gmail.com</string>                                           <!--  Gmail ID Only -->
+    <string name="ParentMailPassword">jothi12345</string>
+    <string name="MailSubject">Backup</string>
+    <string name="ComposeMessage">This is auto backup mail from android application</string>
+
+    <string-array name="RecepientMailId">
+        <item>boopathisachin7@gmail.com</item>                                                   <!-- Add Mail ID to who you to send -->
+    </string-array>
+
+</resources>
